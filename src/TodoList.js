@@ -11,7 +11,6 @@ class TodoList extends Component {
                             ref={this.props.inputElement}
                             value={this.props.currentItem.text}
                             onChange={this.props.handleInput} 
-                             
                         />
                         <button type="submit"> Add Task </button>
                     </form>
